@@ -16,6 +16,7 @@ subDir <- "/Inertial Signals/"
 
 features <- read.table(paste(parentDir, "features.txt", sep = "") ,header = FALSE)
 
+## Modifying variable names
 features[,2] <- gsub("^t","TIME_",features[,2])
 features[,2] <- gsub("^f","FREQ_",features[,2])
 features[,2] <- gsub("Acc","_acceleration_",features[,2])
@@ -83,7 +84,7 @@ activies <- read.table(paste(parentDir, "activity_labels.txt", sep = "") ,header
 ############## Grouping by Subject-ACtivity ##############
   
   groupedData <- aggregate(reqData, by = list(reqData$`Subject ID`, reqData$Activity), mean)
-  groupedData <- groupedData[,c(1:2,4:89)]
+  groupedData <- groupedData[,c(1:2,4:89)] # Selecting required columns
   
   colnames(groupedData)[1] <- "Subject ID"
   colnames(groupedData)[2] <- "Activity"
