@@ -6,11 +6,7 @@ The structure of the names of the variables are mostly the same as the original 
 
 The variables are renamed in such a manner that all the names are descriptive and convey a clear meaning. Also, special characters in variable names are removed if it did not make sense.
 
-## New Variables
-
-The two newly added variables, Subject ID (takes a number between 1 and 30) denotes the subject and the Activity label which takes the value one among WALKING, WALKING_UPSTAIRS, WALING_DOWNSTAIRS, SITTING, STANDING or LAYING. The other variables are as in the original dataset except for the change in the variable names.
-
-## Modifications to Original Data
+## Original Data and Modifications
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals TIME_acceleration-XYZ and TIME_gyroscope-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (TIME_body_acceleration-XYZ and TIME_gravity_acceleration-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -68,3 +64,8 @@ TIME_body_Acceleration_Mean
 TIME_body_Acceleration_jerkMean  
 TIME_body_gyroscope_Mean  
 TIME_body_gyroscope_jerkMean
+
+## New Variables
+
+The two newly added variables, Subject ID (takes a number between 1 and 30) denotes the subject and the Activity label which takes the value one among WALKING, WALKING_UPSTAIRS, WALING_DOWNSTAIRS, SITTING, STANDING or LAYING. The other variables are as in the original dataset except for the change in the variable names.
+
