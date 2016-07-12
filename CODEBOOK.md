@@ -9,23 +9,23 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-TIME_body_acceleration-XYZ
-TIME_gravity_acceleration-XYZ
-TIME_body_acceleration_jerk-XYZ
-TIME_body_gyroscope-XYZ
-TIME_bod_gyroscope_jerk-XYZ
-TIME_body_acceleration_magnitude
-TIME_gravity_acceleration_magnitude
-TIME_body_acceleration_jerk_magnitude
-TIME_body_gyroscope_magnitude_
-TIME_body_gyroscope_jerk_magnitude_
-FREQ_body_acceleration-XYZ
-FREQ_body_acceleration_jerk-XYZ
-FREQ_body_gyroscope-XYZ
-FREQ_body_acceleration_magnitude
-FREQ_body_acceleration_jerk_magnitude_
-FREQ_body_gyroscope_magnitude_
-FREQ_body_gyroscope_jerk_magnitude_
+TIME_body_acceleration-XYZ 
+TIME_gravity_acceleration-XYZ 
+TIME_body_acceleration_jerk-XYZ 
+TIME_body_gyroscope-XYZ 
+TIME_bod_gyroscope_jerk-XYZ 
+TIME_body_acceleration_magnitude_  
+TIME_gravity_acceleration_magnitude_  
+TIME_body_acceleration_jerk_magnitude_  
+TIME_body_gyroscope_magnitude_ 
+TIME_body_gyroscope_jerk_magnitude_ 
+FREQ_body_acceleration-XYZ 
+FREQ_body_acceleration_jerk-XYZ 
+FREQ_body_gyroscope-XYZ 
+FREQ_body_acceleration_magnitude_ 
+FREQ_body_acceleration_jerk_magnitude_ 
+FREQ_body_gyroscope_magnitude_ 
+FREQ_body_gyroscope_jerk_magnitude_ 
 
 The set of variables that were estimated from these signals are: 
 
