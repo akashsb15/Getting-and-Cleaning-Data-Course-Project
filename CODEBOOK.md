@@ -64,10 +64,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 gravityMean
 
-TIME_body_Acceleration_Mean
-
-TIME_body_Acceleration_jerkMean
-
-TIME_body_gyroscope_Mean
-
+TIME_body_Acceleration_Mean  
+TIME_body_Acceleration_jerkMean  
+TIME_body_gyroscope_Mean  
 TIME_body_gyroscope_jerkMean
