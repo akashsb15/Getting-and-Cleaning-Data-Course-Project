@@ -13,4 +13,4 @@ The tasks completed as part of this project are as follows,
 All the 5 steps mentioned above are achieved in the run_analusis.R script. It can be noted in the script that I first changed all variable names to ones that can be easily understood and accessed (even though only a few of them are required). The subject id's, features and activity labels were in separate text files. These are combined, both for train and test data. Subsequently, only data pertaining to mean and std of the variables are extracted. Using the extracted data, a new tidy dataset is created in tidy_dataset.txt.  
 
 
-Note - If you want to regenerate the tidy dataset, please change the working directory in the beginning of run_analysis.R
+Note - If you want to regenerate the tidy dataset, please change the working directory in the beginning of run_analysis.R and also place the script in a manner that the tidy_dataset.txt is created without errors. Also, few packages required are 1.dplyr, 2.data.table
