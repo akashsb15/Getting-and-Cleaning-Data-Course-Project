@@ -73,7 +73,7 @@ activies <- read.table(paste(parentDir, "activity_labels.txt", sep = "") ,header
   allData <- arrange(allData, `Subject ID`)
   colnames(allData)[2:562] <- features[,2]
   
-  allData$Activity <- factor(allData$Activity, levels = c(1,2,3,4,5,6), labels = activies[,2])
+  allData$Activity <- factor(allData$Activity, levels = activies[,1], labels = activies[,2])
   allData$Activity <- as.character(allData$Activity)
   
   reqData <- cbind(allData[,"Subject ID"], allData[grepl("mean|std",names(allData))], allData[, "Activity"])
